@@ -84,10 +84,56 @@ a{
 
 header{
 
-
+ background-color: #f26c25;
+ padding-top: 10px;
+ padding-bottom: 10px;
    
 }
 
+header .wrapper{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.logo{
+
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+
+
+header p{
+
+   font-size: 36px;
+   font-weight: bold;
+   color: white;
+
+}
+
+header ul{
+
+   display: flex;
+   gap: 40px;
+   list-style-type: none;
+
+}
+
+header {
+
+   color: white;
+
+}
+
+header nav a:hover{
+
+   text-decoration: underline;
+
+}
 /*---------------------------------------------- */
 
 /*----------------------NAV--------------------- */
