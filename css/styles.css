@@ -44,25 +44,33 @@ body{
 
 h1{
 
-
+   font-size: 36px;
+   text-align: center;
+   font-weight: 300;
+   letter-spacing: 7.2px;
 
 }
 
 h2{
 
-
+ font-size: 18px;
+ font-weight: 700;
    
 }
 
 h3{
 
+   font-size: 36px;  
+   font-weight: 300;
+   text-align: center;
 
+   margin-bottom: 0;
    
 }
 
 p{
 
-
+   text-align: center;
    
 }
 
@@ -74,6 +82,56 @@ a{
 /*---------------------------------------------- */
 
 /*---------------------IMAGES------------------- */
+
+   .facebook a{
+
+      background-image: url("../images/facebook-nb.jpg");
+
+   }
+
+   .twitter a{
+
+      background-image: url("../images/twitter-nb.jpg");
+
+   }
+
+   .linkedin a{
+
+      background-image: url("../images/linkedin-nb.jpg");
+
+   }
+
+   .pinterest a{
+
+      background-image: url("../images/pinterest-nb.jpg");
+
+   }
+
+   .facebook a:hover{
+
+      background-image: url("../images/facebook-survol.jpg");
+
+   }
+
+   .twitter a:hover{
+
+      background-image: url("../images/twitter-survol.jpg");
+
+   }
+
+   .linkedin a:hover{
+
+      background-image: url("../images/linkedin-survol.jpg");
+
+   }
+
+   .pinterest a:hover{
+
+      background-image: url("../images/pinterest-survol.jpg");
+
+   }
+
+
 /*---------------------------------------------- */
 
 /* ==========================================================================
@@ -123,7 +181,7 @@ header ul{
 
 }
 
-header {
+header nav a{
 
    color: white;
 
@@ -138,20 +196,51 @@ header nav a:hover{
 
 /*----------------------NAV--------------------- */
 
-nav{
-
-
-   
-}
 
 /*---------------------------------------------- */
 
 /*--------------------SECTION------------------- */
 
-section{
+.banniere{
 
-
+   background-color: #eeeeeeee;
    
+}
+
+.banniere .wrapper{
+
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.titre-section{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   height: 60px;
+
+   background-color: #eeeeeeee;
+   border: solid 1px #d0d0d0;
+
+   margin-top: 80px;
+   margin-bottom: 60px;
+
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+
+.conteneur-transport{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 60px;
+
 }
 
 /*---------------------------------------------- */
@@ -160,8 +249,40 @@ section{
 
 footer{
 
-
+ background-color: black
    
 }
+
+footer h4{
+
+   color: white;
+
+}
+
+footer .wrapper{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+footer a{
+
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+
+}
+
+footer ul{
+
+   display: flex;
+   gap: 20px;
+   list-style-type: none;
+
+}
+
+
 
 /*---------------------------------------------- */
